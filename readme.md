@@ -45,7 +45,7 @@
 
 | Admin Panel | Popup Example | Targeting Options |
 |-------------|---------------|-------------------|
-| ![Admin](https://via.placeholder.com/300x200?text=Admin+Panel) | ![Popup](https://via.placeholder.com/300x200?text=Popup+Example) | ![Targeting](https://via.placeholder.com/300x200?text=Targeting) |
+| ![Admin]([https://via.placeholder.com/300x200?text=Admin+Panel](https://github.com/Ruslan-Bilohash/smart-popups/blob/main/screen/admin.jpg)) | ![Popup]([https://via.placeholder.com/300x200?text=Popup+Example](https://github.com/Ruslan-Bilohash/smart-popups/blob/main/screen/frontend.jpg)) | ![Targeting]([https://via.placeholder.com/300x200?text=Targeting](https://github.com/Ruslan-Bilohash/smart-popups/blob/main/screen/admin_setting.jpg)) |
 
 ---
 
