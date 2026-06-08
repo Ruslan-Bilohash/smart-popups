@@ -1,184 +1,108 @@
-=== Bilohash Smart Popups ===
-Contributors: rbilohash
-Donate link: https://bilohash.com/donate.php
-Tags: popup, popups, marketing popup, exit intent, countdown timer
-Requires at least: 6.4
-Tested up to: 7.0
-Stable tag: 1.0.0
-Requires PHP: 7.4
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Bilohash Smart Popups
 
-Free professional popup builder for WordPress. Create beautiful popups with device targeting, countdown timers.
+<div align="center">
 
-== Description ==
+![WordPress](https://img.shields.io/badge/WordPress-6.4+-blue.svg)
+![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg)
+![License](https://img.shields.io/badge/License-GPLv2-green.svg)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)
 
-**Bilohash Smart Popups** is a clean, lightweight and powerful popup plugin for WordPress.
+**Professional, lightweight and flexible popup builder for WordPress**
 
-### Key Features:
+[View on WordPress.org](https://wordpress.org/plugins/bilohash-smart-popups) • [Website](https://bilohash.com) • [Support](https://bilohash.com/donate.php)
 
-- **Triggers**: Time Delay, Scroll (50%), Exit Intent
-- **Countdown Timer** with custom end date
-- **Custom Icons** (any emoji)
-- **Full Design Control**:
-  - Background color
-  - Accent color
-  - Title color
-  - Text color
-- **Popup Size Control**:
-  - Width (px, %, vw)
-  - Height (auto, px, vh)
-- **Device Targeting**:
-  - Enable/disable separately on Desktop, Tablet and Mobile
-- **Page Targeting**:
-  - All pages
-  - Homepage only
-  - Specific pages (by ID or slug)
-- **Prevent Reopen** after closing
-- **Button with custom link**
-- **Fully responsive** and lightweight
-- **100% Free** and open source (GPLv2)
+</div>
 
-Perfect for promotions, discounts, lead capture, newsletter signups and important announcements.
+---
 
-== Installation ==
+## ✨ Features
 
-1. Upload the plugin files to the `/wp-content/plugins/bilohash-smart-popups` directory
-2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Go to **Smart Popups** in the WordPress admin menu
-4. Configure your popup and save
+- **Multiple Triggers** — Time Delay, Scroll (50%), Exit Intent
+- **Countdown Timer** — Beautiful countdown with custom end date
+- **Custom Icons** — Use any emoji as popup icon
+- **Full Design Control** — Background, Accent, Title and Text colors
+- **Adjustable Size** — Set custom width and height (px, vw, vh, auto)
+- **Device Targeting** — Enable/disable separately on Desktop, Tablet and Mobile
+- **Page Targeting** — Show on All pages, Homepage only, or Specific pages
+- **Prevent Reopen** — Don't show popup again after user closes it
+- **Lightweight & Fast** — Optimized code, no unnecessary scripts
+- **Fully Responsive** — Looks great on all devices
+- **100% Free & Open Source**
 
-== Frequently Asked Questions ==
+---
 
-= Is the plugin free? =
-Yes. Bilohash Smart Popups is completely free and open source.
+## 📦 Installation
 
-= Can I create multiple popups? =
-Yes. You can create unlimited popups with different designs and display rules.
+1. Download the latest release from [GitHub](https://github.com/Ruslan-Bilohash/bilohash-smart-popups/releases) or WordPress.org
+2. Upload the plugin folder to `/wp-content/plugins/`
+3. Activate **Bilohash Smart Popups** from the Plugins menu
+4. Go to **Smart Popups** in the WordPress admin sidebar
+5. Configure your popup and save
 
-= Does it support countdown timers? =
-Yes. You can enable a countdown timer and set any end date and time.
+---
 
-= Can I show popups only on specific pages or devices? =
-Yes. You can target by device (Desktop / Tablet / Mobile) and by pages (All, Homepage, or specific pages).
+## 🖼 Screenshots
 
-= Is the plugin lightweight? =
-Yes. The plugin is optimized and loads only necessary scripts.
+| Admin Panel | Popup Example | Targeting Options |
+|-------------|---------------|-------------------|
+| ![Admin](https://via.placeholder.com/300x200?text=Admin+Panel) | ![Popup](https://via.placeholder.com/300x200?text=Popup+Example) | ![Targeting](https://via.placeholder.com/300x200?text=Targeting) |
 
-== Screenshots ==
+---
 
-1. Admin settings panel
-2. Example of a beautiful popup with countdown timer
-3. Device and page targeting options
+## 🚀 Usage
 
-== Changelog ==
+1. Go to **Smart Popups → Settings**
+2. Enable the popup
+3. Customize content, colors, size and triggers
+4. Set device and page targeting rules
+5. Save and enjoy!
 
-= 1.0.0 =
-* Initial stable release
-* Time, Scroll and Exit Intent triggers
-* Countdown timer support
-* Custom icons and colors
-* Device targeting (Desktop, Tablet, Mobile)
-* Page targeting
-* Adjustable width and height
-* Prevent showing popup again after close
+---
 
-== Upgrade Notice ==
+## 🛠 Requirements
 
-= 1.0.0 =
-Initial release of Bilohash Smart Popups.
+- WordPress 6.4 or higher
+- PHP 7.4 or higher
 
-== External Services ==
+---
 
-This plugin does not send any data to external services.=== Bilohash Smart Popups ===
-Contributors: ruslan-bilohash
-Tags: popup, popups, marketing popup, exit intent, countdown timer, lead generation
-Requires at least: 6.4
-Tested up to: 7.0
-Stable tag: 1.0.0
-Requires PHP: 7.4
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+## 📝 Changelog
 
-Free professional popup builder for WordPress. Create beautiful popups with device targeting, countdown timers, page rules and full design customization.
+### v1.0.0
+- Initial stable release
+- Time, Scroll and Exit Intent triggers
+- Countdown timer
+- Custom icons and colors
+- Device targeting
+- Page targeting
+- Adjustable width & height
+- Prevent reopen after close
 
-== Description ==
+---
 
-**Bilohash Smart Popups** is a clean, lightweight and powerful popup plugin for WordPress.
+## 🤝 Contributing
 
-### Key Features:
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-- **Triggers**: Time Delay, Scroll (50%), Exit Intent
-- **Countdown Timer** with custom end date
-- **Custom Icons** (any emoji)
-- **Full Design Control**:
-  - Background color
-  - Accent color
-  - Title color
-  - Text color
-- **Popup Size Control**:
-  - Width (px, %, vw)
-  - Height (auto, px, vh)
-- **Device Targeting**:
-  - Enable/disable separately on Desktop, Tablet and Mobile
-- **Page Targeting**:
-  - All pages
-  - Homepage only
-  - Specific pages (by ID or slug)
-- **Prevent Reopen** after closing
-- **Button with custom link**
-- **Fully responsive** and lightweight
-- **100% Free** and open source (GPLv2)
+---
 
-Perfect for promotions, discounts, lead capture, newsletter signups and important announcements.
+## 📄 License
 
-== Installation ==
+This plugin is licensed under the **GPLv2 or later**.
 
-1. Upload the plugin files to the `/wp-content/plugins/bilohash-smart-popups` directory
-2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Go to **Smart Popups** in the WordPress admin menu
-4. Configure your popup and save
+---
 
-== Frequently Asked Questions ==
+## 👨‍💻 Author
 
-= Is the plugin free? =
-Yes. Bilohash Smart Popups is completely free and open source.
+**Ruslan Bilohash**  
+- Website: [bilohash.com](https://bilohash.com)  
+- GitHub: [@Ruslan-Bilohash](https://github.com/Ruslan-Bilohash)  
+- WordPress: [Bilohash AI Chat Consultant](https://wordpress.org/plugins/bilohash-ai-chat-consultant/)
 
-= Can I create multiple popups? =
-Yes. You can create unlimited popups with different designs and display rules.
+---
 
-= Does it support countdown timers? =
-Yes. You can enable a countdown timer and set any end date and time.
+<div align="center">
 
-= Can I show popups only on specific pages or devices? =
-Yes. You can target by device (Desktop / Tablet / Mobile) and by pages (All, Homepage, or specific pages).
+**Made with ❤️ for the WordPress community**
 
-= Is the plugin lightweight? =
-Yes. The plugin is optimized and loads only necessary scripts.
-
-== Screenshots ==
-
-1. Admin settings panel
-2. Example of a beautiful popup with countdown timer
-3. Device and page targeting options
-
-== Changelog ==
-
-= 1.0.0 =
-* Initial stable release
-* Time, Scroll and Exit Intent triggers
-* Countdown timer support
-* Custom icons and colors
-* Device targeting (Desktop, Tablet, Mobile)
-* Page targeting
-* Adjustable width and height
-* Prevent showing popup again after close
-
-== Upgrade Notice ==
-
-= 1.0.0 =
-Initial release of Bilohash Smart Popups.
-
-== External Services ==
-
-This plugin does not send any data to external services.
+</div>
