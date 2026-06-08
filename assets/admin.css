@@ -4,13 +4,15 @@
     padding: 0 20px;
 }
 
+/* === Шапка === */
 .bilo-popups-header {
-    background: linear-gradient(135deg, #0a0a2e 0%, #1f1f52 100%);
-    color: #ffffff;
-    padding: 24px 30px;
-    border-radius: 16px;
-    margin-bottom: 35px;
-    box-shadow: 0 12px 45px rgba(0, 245, 255, 0.3);
+    background: #f8f9fa;
+    color: #1f2937;
+    padding: 20px 28px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,84 +23,160 @@
 .header-left {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 16px;
 }
 
 .bilo-logo-icon {
-    font-size: 52px !important;
-    width: 52px;
-    height: 52px;
-    color: #ffffff;
-    filter: drop-shadow(0 0 15px #00f5ff);
+    font-size: 48px !important;
+    width: 48px;
+    height: 48px;
+    color: #3b82f6;
     flex-shrink: 0;
 }
 
 .bilo-popups-header h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
-    color: #ffffff;
-    line-height: 1.2;
+    color: #111827;
 }
 
 .version-info {
-    margin: 4px 0 0 0;
-    font-size: 14.5px;
-    opacity: 0.9;
+    margin: 3px 0 0 0;
+    font-size: 14px;
+    color: #6b7280;
 }
 
 .header-right {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
-.header-btn,
-.pro-btn {
+.header-btn {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 11px 18px;
-    border-radius: 10px;
+    padding: 10px 18px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    transition: all 0.3s ease;
-}
-
-.header-btn {
-    background: rgba(255,255,255,0.12);
-    color: #ffffff;
+    transition: all 0.2s ease;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    color: #374151;
 }
 
 .header-btn:hover {
-    background: #00f5ff;
-    color: #0a0a2e;
-    transform: translateY(-2px);
+    background: #f3f4f6;
+    border-color: #9ca3af;
+    transform: translateY(-1px);
 }
 
 .pro-btn {
-    background: linear-gradient(135deg, #ff1a4d, #e60033);
-    color: #ffffff;
+    background: #3b82f6;
+    color: white;
+    border: 1px solid #3b82f6;
 }
 
 .pro-btn:hover {
-    transform: translateY(-3px);
+    background: #2563eb;
+    border-color: #2563eb;
+    color: white;
 }
 
-/* Адаптивність */
+/* === Заголовки секцій === */
+.section-header {
+    margin-bottom: 25px;
+}
+
+.section-header h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.section-header p {
+    color: #6b7280;
+    margin: 0;
+    font-size: 15px;
+}
+
+/* === Картки === */
+.info-card {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid #bae6fd;
+    margin-bottom: 25px;
+}
+
+.info-card h3 {
+    margin: 0 0 16px 0;
+    font-size: 20px;
+    color: #0c4a6e;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #bae6fd;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+}
+
+.contact-link:hover {
+    background: #f8fafc;
+}
+
+.contact-link:last-child {
+    margin-bottom: 0;
+}
+
+.contact-link strong {
+    color: #0c4a6e;
+    font-size: 16px;
+}
+
+.contact-link span {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.plugin-card {
+    background: #f0fdf4;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #86efac;
+}
+
+.plugin-card h3 {
+    margin: 0 0 12px 0;
+    color: #166534;
+    font-size: 19px;
+}
+
+.plugin-card p {
+    margin: 0 0 18px 0;
+    color: #4ade80;
+    font-size: 15px;
+}
+
+/* === Адаптивність === */
 @media (max-width: 768px) {
     .bilo-popups-header {
         flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-    .header-left {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .bilo-logo-icon {
-        font-size: 48px !important;
+        align-items: flex-start;
     }
 }
