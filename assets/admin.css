@@ -1,0 +1,104 @@
+.bilo-popups-settings .wrap {
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.bilo-popups-header {
+    background: linear-gradient(135deg, #0a0a2e 0%, #1f1f52 100%);
+    color: #ffffff;
+    padding: 24px 30px;
+    border-radius: 16px;
+    margin-bottom: 35px;
+    box-shadow: 0 12px 45px rgba(0, 245, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.bilo-logo-icon {
+    font-size: 52px !important;
+    width: 52px;
+    height: 52px;
+    color: #ffffff;
+    filter: drop-shadow(0 0 15px #00f5ff);
+    flex-shrink: 0;
+}
+
+.bilo-popups-header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.version-info {
+    margin: 4px 0 0 0;
+    font-size: 14.5px;
+    opacity: 0.9;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.header-btn,
+.pro-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.header-btn {
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+}
+
+.header-btn:hover {
+    background: #00f5ff;
+    color: #0a0a2e;
+    transform: translateY(-2px);
+}
+
+.pro-btn {
+    background: linear-gradient(135deg, #ff1a4d, #e60033);
+    color: #ffffff;
+}
+
+.pro-btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .bilo-popups-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .header-left {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bilo-logo-icon {
+        font-size: 48px !important;
+    }
+}
