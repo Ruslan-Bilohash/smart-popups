@@ -5,7 +5,7 @@
 ![WordPress](https://img.shields.io/badge/WordPress-6.4+-blue.svg)
 ![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg)
 ![License](https://img.shields.io/badge/License-GPLv2-green.svg)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)
+![Version](https://img.shields.io/badge/Version-1.2.0-orange.svg)
 
 **Professional, lightweight and flexible popup builder for WordPress**
 
@@ -33,7 +33,7 @@
 
 ## 📦 Installation
 
-1. Download the latest release from [GitHub](https://github.com/Ruslan-Bilohash/bilohash-smart-popups/releases) or WordPress.org
+1. Download the latest release from [GitHub](https://github.com/Ruslan-Bilohash/smart-popups/releases) or WordPress.org
 2. Upload the plugin folder to `/wp-content/plugins/`
 3. Activate **Bilohash Smart Popups** from the Plugins menu
 4. Go to **Smart Popups** in the WordPress admin sidebar
@@ -69,15 +69,31 @@
 
 ## 📝 Changelog
 
+### v1.2.0
+* Complete reorganization and descriptions for all settings in the Design tab
+* Multi-popup support with per-popup device targeting and page rules
+* Live preview now correctly handles all positions, gradients, show/hide button, etc. and is reliably visible
+* Button gradient now supports choosing two independent colors
+* New "Show button" toggle (show or hide the main CTA button)
+* Enhanced "My Popups" list cards now display device icons and page rule summary for each popup
+* Header buttons made more prominent and styled
+* GitHub link updated to new repository
+* Full internationalization: .pot template + translations for 18 languages
+* Many fixes for preview (centering, visibility, gray screen issues), multi-popup handling and admin UX
+* Updated readme.txt with complete documentation
+
+### v1.1.0
+* Major design & UX upgrade (preparation for multi-popup system and live preview)
+
 ### v1.0.0
-- Initial stable release
-- Time, Scroll and Exit Intent triggers
-- Countdown timer
-- Custom icons and colors
-- Device targeting
-- Page targeting
-- Adjustable width & height
-- Prevent reopen after close
+* Initial stable release
+* Time, Scroll and Exit Intent triggers
+* Countdown timer
+* Custom icons and colors
+* Device targeting
+* Page targeting
+* Adjustable width & height
+* Prevent reopen after close
 
 ---
 
